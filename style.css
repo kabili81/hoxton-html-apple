@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template:auto;
+}
+
+.top-menu {
+    display: grid;
+    background-color: black;
+    color: white;
+    gap: 3rem;
+    padding: 0.5rem 2rem;
+    grid-template-columns: auto;
+}
